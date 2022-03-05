@@ -4,3 +4,35 @@ body,
     height: 100%;
     margin: 0;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+    width: 700px;
+    height: 400px;
+}
+
+div {
+    background-color: #daa520;
+}
+
+div:nth-child(1) {
+    height: 100px;
+}
+
+div:nth-child(2) {
+    height: 100px;
+}
+
+div:nth-child(3) {
+    height: 200px;
+}
+
+div:nth-child(4) {
+    height: 200px;
+}
+
+div:nth-child(5) {
+    height: 100px;
+}
